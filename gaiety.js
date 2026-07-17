@@ -22,7 +22,7 @@
     // Function to create your hosted GIF elements
     function spawnCatGif() {
         var gif = document.createElement('img');
-        gif.src = 'https://github.com/caramel-juni/spinningcat-cx/blob/d7f0ed9a218debbb09b47597cce05d3830b68f59/gaiety.png';  // Your hosted GIF URL
+        gif.src = 'https://raw.githubusercontent.com/caramel-juni/spinningcat-cx/d7f0ed9a218debbb09b47597cce05d3830b68f59/gaiety.png';  // Your hosted GIF URL
         gif.style.position = 'fixed';
         gif.style.zIndex = 9999;  // Above the overlay
         gif.style.width = '150px';
