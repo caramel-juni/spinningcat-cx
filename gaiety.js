@@ -14,7 +14,7 @@
     overlay.style.width = '100%';
     overlay.style.height = '100%';
     overlay.style.backgroundColor = '#00FF00';  // Neon green
-    overlay.style.zIndex = 9998;  // Below the cats (9999) but above everything else
+    overlay.style.zIndex = 9998;  // Below the gaieties (9999) but above everything else
     overlay.style.opacity = '0';  // Initially transparent
     overlay.style.transition = 'opacity 0.2s';  // Smooth fade in/out for flash
     document.body.appendChild(overlay);
@@ -22,7 +22,7 @@
     // Function to create your hosted GIF elements
     function spawnCatGif() {
         var gif = document.createElement('img');
-        gif.src = 'https://raw.githubusercontent.com/caramel-juni/spinningcat-cx/4e11de32d7022eaef030715a3d72b3946a2119d4/gaiety.png';  // Your hosted GIF URL
+        gif.src = 'https://github.com/caramel-juni/spinningcat-cx/blob/d7f0ed9a218debbb09b47597cce05d3830b68f59/gaiety.png';  // Your hosted GIF URL
         gif.style.position = 'fixed';
         gif.style.zIndex = 9999;  // Above the overlay
         gif.style.width = '150px';

