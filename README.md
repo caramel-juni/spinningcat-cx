@@ -19,11 +19,11 @@ You can directly embed the script using this URL:
 
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/carameljuni/spinningcat-cx@VERSION/cat.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/caramel-juni/spinningcat-cx@VERSION/cat.js"></script>
 ```
 ... or, for a biscuity *spin* on things:
 ``` html
-<script src="https://cdn.jsdelivr.net/gh/carameljuni/spinningcat-cx@VERSION/gaiety.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/caramel-juni/spinningcat-cx@VERSION/gaiety.js"></script>
 ```
 
 Replacing VERSION with the github's current version ID (e.g. `f6397a2`):
@@ -34,11 +34,11 @@ Replacing VERSION with the github's current version ID (e.g. `f6397a2`):
 If external scripts are blocked by CSP, try this:
 
 ```html
-<script>fetch('https://cdn.jsdelivr.net/gh/carameljuni/spinningcat-cx@VERSION/cat.js').then(r=>r.text()).then(eval)</script>
+<script>fetch('https://cdn.jsdelivr.net/gh/caramel-juni/spinningcat-cx@VERSION/cat.js').then(r=>r.text()).then(eval)</script>
 ```
 or
 ``` html
-<script>fetch('https://cdn.jsdelivr.net/gh/carameljuni/spinningcat-cx@VERSION/gaiety.js').then(r=>r.text()).then(eval)</script>
+<script>fetch('https://cdn.jsdelivr.net/gh/caramel-juni/spinningcat-cx@VERSION/gaiety.js').then(r=>r.text()).then(eval)</script>
 ```
 
 # Originally created by these wonderful folk, before i tweaked it a bit :3
